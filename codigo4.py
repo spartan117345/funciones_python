@@ -1,10 +1,12 @@
 
-def mostrarnombre(cadena, n):
-    for i in range(1, n):
-        print(f"{i} . {n}")
+def mostrarcadena(cadena, n):
+    for i in range(1, n + 1):
+        print(f"{i} . {cadena}")
 
+
+cadena=input("dijite la cadena a mostrar")
 n = input("dijite el numero: ")
 
-mostrarnombre(n)
+mostrarcadena(cadena, n)
 
 print("\nEso era...")
